@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main web</title>
+    <style>
+        :root {
+            --padding: 6px;
+          }
+        body {
+            width: 1200px;
+            height: 800px;
+            background-image: radial-gradient(#7CB342,blue,cyan,rgb(223, 157, 37));
+        }
+        .main{
+            width: 1000px;
+            height: 650px;
+            display: flex;  
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1{
+            width: 900px;
+            height: 30px;
+            font-size: x-large;
+            background: linear-gradient(2deg, #2d2821, #98fd25);
+            color: darkgoldenrod;
+            text-shadow: 1px 2px;
+            text-align: center;
+        }
+        .enlaces{
+            margin: 5px;
+            padding: var(--padding);
+            width: 318px;
+            text-align: center;
+        }
+        .li {
+            border: 2px solid gold;
+        }
+        .li-a {
+            padding: var(--padding);
+            background-color: black;
+            text-align: center;
+        }
+        .li-a:hover {
+            background-color: white;
+            font-style: oblique;
+            font-weight: 800;
+            padding: var(--padding);
+        }
+        .li-b {  
+            background-color: #4d7028c7;
+            padding: var(--padding);
+        }
+        .li-b:hover { 
+            padding: var(--padding);
+            background-color: orangered;
+            font-style: oblique;
+            font-weight: 800;
+        }
+        .li-c {  
+            background-color: #258eb8c7;
+            padding: var(--padding);
+        }
+        .li-c:hover { 
+            padding: var(--padding);
+            background-color: rgb(192, 134, 161);
+            font-style: oblique;
+            font-weight: 800;
+        }
+        .bx1 {  
+            width: 180px;
+            height: 55px;
+        }
+        .bx1:hover {    
+            background-image: linear-gradient(#14b873e8, rgb(97, 97, 14));
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="bx0"> <h1>Hola soy Reigert Lorigador. Programador en Web y otras Tecnologias.</h1>
+       </div>
+       <div class="enlaces">
+           <ul class="li-a"><a href="https://github.com/reigert1986" target="_blank">Repositorio GitHub</a></ul>
+           <ul class="li-b"><a href="https://github.com/reigert1986/player_audio_api" target="_blank">API de audio (en constante desarrollo.)</a></ul>
+           <ul class="li-c"><a href="https://github.com/reigert1986/tablas-de-multiplicar" target="_blank">Tablas de Multiplicar</a></ul>
+       </div>
+       <div class="bx1"><button class="bx1 bx11">click</button></div>
+    </div>
+    <script src="gh.js"></script>
+</body>
+</html>                 
